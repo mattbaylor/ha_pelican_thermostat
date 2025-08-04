@@ -1,0 +1,10 @@
+{
+  "domain": "pelican_thermostat",
+  "name": "Pelican Thermostat",
+  "version": "0.1.0",
+  "documentation": "https://www.pelicanwireless.com/help-center/thermostat-attributes/",
+  "requirements": ["httpx", "xmltodict"],
+  "codeowners": ["@mattbaylor"],
+  "iot_class": "cloud_polling",
+  "config_flow": true
+}
